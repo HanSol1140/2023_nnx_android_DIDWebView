@@ -14,6 +14,6 @@ class BootReceiver : BroadcastReceiver() {
             Handler(Looper.getMainLooper()).postDelayed({
                 context.startActivity(i)
             }, 40000)  // 부팅후 40초 후에 앱 실행
-        }
+        } 
     }
 }
